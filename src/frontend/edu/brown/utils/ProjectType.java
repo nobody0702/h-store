@@ -52,6 +52,7 @@ public enum ProjectType {
     EXAMPLE("Example", "edu.brown.benchmark.example"),
     AFFINITY("Affinity", "edu.mit.benchmark.affinity"),
     TWITTER("Twitter", "com.oltpbenchmark.benchmarks.twitter"),
+    LINKBENCH("linkbench", "edu.sjtu.linkbench"),
     TEST("Test", null),
     ;
 
