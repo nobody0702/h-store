@@ -12,7 +12,6 @@ CREATE TABLE linktable (
   id2 INTEGER NOT NULL,
   link_type BIGINT NOT NULL,
   visibility tinyint DEFAULT NULL,
-  data varchar(255) DEFAULT '' NOT NULL,
   time TIMESTAMP DEFAULT NULL,
   version int NOT NULL,
   PRIMARY KEY (id1,id2,link_type),

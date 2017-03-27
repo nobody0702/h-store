@@ -71,12 +71,10 @@ public class LinkbenchLoader extends Loader {
     	while((e = this.graph_loader.readNextEdge()) !=null ){
     		Object row[] = new Object[num_cols];
         	int param = 0;
-            String data = TextGenerator.randomStr(rng, rng.nextInt(64) + 10);
         	row[param++] = e.node0;
         	row[param++] = e.node1;
         	row[param++] = VoltType.NULL_BIGINT;
         	row[param++] = VoltType.NULL_TINYINT;
-        	row[param++] = data;
         	row[param++] = VoltType.NULL_TIMESTAMP;
         	row[param++] = (int)1;
         	vt.addRow(row);
