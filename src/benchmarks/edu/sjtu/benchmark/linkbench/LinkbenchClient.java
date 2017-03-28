@@ -176,6 +176,11 @@ public class LinkbenchClient extends BenchmarkComponent {
     				nid	
     		};
     		break;
+    	case UPDATE_NODES_FROM_LINK:
+    		params = new Object[]{
+    				nid	
+    		};
+    		break;
     	default:
     		assert(false): "should not come to this point";
     	}
