@@ -47,6 +47,9 @@ public class GraphTransactionGenerator {
 			case GET_NODES_FROM_LINK:
 			    nid = linkWeights.nextValue();
 			    break;
+			case UPDATE_NODES_FROM_LINK:
+				nid = linkWeights.nextValue();
+				break;
 			default:
 				assert(false):"should not come to this point";
 		}

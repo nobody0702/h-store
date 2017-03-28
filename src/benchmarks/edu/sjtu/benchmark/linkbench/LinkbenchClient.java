@@ -42,7 +42,8 @@ public class LinkbenchClient extends BenchmarkComponent {
     public static enum Transaction {
     	GET_NODE("Get Node", LinkbenchConstants.FREQ_GET_NODE),
     	GET_LINK("Get Link", LinkbenchConstants.FREQ_GET_LINK),
-        GET_NODES_FROM_LINK("Get Nodes From Link", LinkbenchConstants.FREQ_GET_NODES_FROM_LINK);
+        GET_NODES_FROM_LINK("Get Nodes From Link", LinkbenchConstants.FREQ_GET_NODES_FROM_LINK),
+    	UPDATE_NODES_FROM_LINK("Update Nodes From Link", LinkbenchConstants.FREQ_UPDATE_NODES_FROM_LINK);
         
         /**
          * Constructor
